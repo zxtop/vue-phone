@@ -4,7 +4,7 @@
     <div>手机拍照应用</div>
 
     <br>
-    <label>照相机</label> <input type="file" id='image' accept="image/*" capture='camera'> <br> 
+    <label>照相机</label> <input type="file" id='image' accept="image/*" capture='user'> <br> 
     <label>摄像机</label> <input type="file" id='video' accept="video/*" capture='camcorder'>
     <input type="file" id="file" multiple @change="fileChoose">
 
